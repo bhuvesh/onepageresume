@@ -1,0 +1,215 @@
+\documentclass[US paper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\usepackage{multicol}
+\usepackage{scalerel}
+\usepackage{color}
+ 
+\usepackage{comment}
+ 
+
+
+\begin{document}
+\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{ashgrey}}
+
+
+\namesection{Bhuvesh}{Kumar}{ % Your name
+\urlstyle{same}\href{mailto:bhuvesh@gatech.edu}{bhuvesh@gatech.edu} | % Your website, LinkedIn profile or other web address
+\href{http://www.bhuveshkumar.com}{bhuveshkumar.com} | +1 404 259-4524% Your contact information
+}
+\vspace{-5pt}
+
+
+
+\section{Education} 
+\vspace{-4pt}
+\runsubsection{School of CS, Georgia Tech}
+\descript{| Ph.D. in Computer Science - Interested in Machine Learning and Optimization}
+\location{Aug 2017 - Present | Atlanta, Georgia} 
+
+\sectionspace
+
+\runsubsection{IIT, Kanpur}
+\descript{| B.Tech in Computer Science and Engineering}
+\location{Aug 2013- May 2017 | Kanpur, India |}\locationbol{Cumm. Grade Point: 9.7/10} 
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\vspace{-6pt}
+\section{Internship Experience}
+\vspace{-4pt}
+{\runsubsection{ Stochastic Kernel PCA}
+\descript{| Research Intern under Dr. Raman Arora, Johns Hopkins University}
+\location{May 2016 – Aug 2016 | Baltimore, USA}
+\begin{tightitemize}
+\item Worked on stochastic methods for Kernel PCA by extending Stochastic PCA methods using non linear feature maps.
+\item Used Randomized Fourier features and deterministic features using Taylor series to approximate the kernel evaluation.
+\end{tightitemize}
+
+\vspace{1mm}
+
+\runsubsection{Nike, NTC Tour Dubai}
+\descript{| Nike, Dubai | Software Development Intern}
+\location{May 2015 - June 2015 | Dubai, UAE}
+\begin{tightitemize}
+\item Developed a website for a Nike event, NTC Tour Dubai integrating social tagging in 360 panoramas.
+\item Facebook Graph API, email addresses, and the Twitter APIs were used to fetch data, perform tagging, and sharing.
+\item Developed and deployed a ticketing system using Amazon AWS for the same event which was attended by over a 1000 guests.
+\item Android application and Database servers were set up to check in guests for the event based on the unique QR codes.
+\end{tightitemize}
+
+\vspace{1mm}
+
+
+
+\runsubsection{Green Screen and Face recognition}
+\descript{| Bank Muscat, Dubai | Software Development Intern}
+
+\location{June 2015 - July 2015| Dubai, UAE}
+\begin{tightitemize}
+\item Developed an app using Microsoft Kinect implementing background subtraction, gesture recognition, face recognition and detection.
+\item Designed a multi-screen setup for deploying the app as a marketing and advertisement tool at public places.
+\end{tightitemize}
+
+
+
+\vspace{1mm}
+\vspace{-2.5pt}
+
+
+%------------------------------------------------
+\section{Research Experience}
+\vspace{-4pt}
+\runsubsection{Optimizing concave erformance measures}
+\descript{| Dr. Purushottam Kar, IITK }
+\location{Jan 2017 – May 2017 | Kanpur, India}
+\begin{tightitemize}
+\item Worked on optimizing concave performance measures in adversarial settings and under delayed feedback.
+\item Used Online Mirror Descent by formulating a primal-dual problem and obtained sublinear regret bounds.
+\end{tightitemize}
+\vspace{1mm}
+
+
+\runsubsection{Non Convex Methods for Surveillance}
+\descript{|Dr. Prateek Jain, Microsoft Research and Dr. Purushottam Kar, IITK}
+
+\location{Aug 2016 – December 2016 | Kanpur, India}
+\begin{tightitemize}
+\item Used alternating minimization technique to solve the non-convex Robust PCA objective for background subtraction.
+\item Extended the Robust PCA for still camera videos to videos with camera motion by devising fast methods for homography estimation.
+\end{tightitemize}
+\vspace{1mm}
+
+
+\runsubsection{Automatic Video Surveillance}
+\descript{| Dr. H. Karnick, IITK}
+
+\location{Jan 2016 – April 2016 | Kanpur, India}
+\begin{tightitemize}
+\item Developed methods for entity recognition for traffic surveillance using CCTV footage.
+\item Implemented Entity recognition using CRFs and RCNN, and face detection and recognition using Viola-Jones and Neural Nets.
+\end{tightitemize}
+\vspace{1mm}
+\runsubsection{Extreme Multiclass-classification}
+\descript{| Dr. Prateek Jain, Microsoft Research and Dr. Purushottam Kar, IITK}
+
+\location{Jan 2016 – July 2016 | Kanpur, India}
+\begin{tightitemize}
+\item Worked on the extreme classification problems where the number of classes, dimensions and (or) training size scales up to millions.
+\item Extended a a local embedding based algorithm for extreme multi labelling problems to extreme multiclass settings.
+\end{tightitemize}
+\vspace{1mm}
+\runsubsection{Sparse Recovery and Optimization}
+\descript{| Dr. Prateek Jain, Microsoft Research and Dr. Purushottam Kar, IITK}
+
+\location{Jun 2015 – December 2015 | Kanpur, India}
+\begin{tightitemize}
+\item Worked on the compressive sensing by studying the algorithms in the field: GraDeS, OPMR, Basis Pursuit, CoSAMP, OMP, and Lasso.
+\item Performed experimental and theoretical analysis to quantify the performances under varying dimensionality, sparsity, and noise. 
+\end{tightitemize}
+\vspace{1mm}
+
+\vspace{-5pt}
+
+\section{Select Projects}
+
+\vspace{5pt}
+\begin{tightitemize}
+\item \textbf{photoCENTER - Image/Video Processing App:} Developed an open-source multi-platform software to edit videos and images including background extraction capabilities using image processing techniques. \vspace{0.5mm}
+\item \textbf{Artify:} Designed a web app in Django for deep neural style transfer written in Caffe.
+\vspace{0.5mm}
+\item \textbf{ColourIT:} Developed a learning algorithm to automatically colour a grayscale image using multiple regressors and deployed it. \vspace{0.5mm}
+\item \textbf{Research Group Website} Designed a package to manage a research group's website by implementing self populating project pages, group members, publications, news, and collaborators using MEAN stack.
+\end{tightitemize}
+
+
+\vspace{-3pt}
+\sectionspace % Some whitespace after the section
+
+
+\vspace{-5pt}
+\section{Skills}
+\vspace{-10pt}
+\begin{multicols}{4}
+[
+]
+\location{Languages} \\
+C++ \textbullet{} C \textbullet{} Python \textbullet{} Matlab \\
+ \textbullet{} Octave \textbullet{} Awk \textbullet{} C\# \textbullet{} Bash 
+
+
+\columnbreak
+
+\location{Scientific Libraries} \\
+Tensorflow  \textbullet{} scikit-learn \textbullet{} Caffe \\\textbullet{} OpenCV \textbullet{} OpenGL \textbullet{} pandas \\
+
+\columnbreak
+
+\location{General Tools} \\
+Git \textbullet{} \LaTeX\ \textbullet{} GNUplot \textbullet{} vim \\
+\textbullet{} MySQL \textbullet{} MongoDB
+\columnbreak
+
+
+\location{Webdev} \\
+Node.js \textbullet{} web.py  \textbullet{} PHP \\
+\textbullet{} Javascript \textbullet{} HTML \textbullet{} CSS 
+
+
+\end{multicols}
+\vspace{-10pt}
+
+\vspace{-3pt}
+\section{Awards} 
+\runsubsection{}
+\location{}
+\vspace{5pt}
+{
+\begin{tightitemize}
+\item \textbf{Academic Excellence Award}, IIT Kanpur 14',15',16' (Dean's List)
+\item Secured \textbf{All India Rank 269} in JEE Advanced, India 2013 among the 200 thousand selected candidates. 
+\item Secured \textbf{All India Rank 321} in JEE Mains 2013 among 1.65 million candidates.
+\item Awarded \textbf{Chair's fellowship} by The School of CS, Georgia Tech.
+\item Awarded the \textbf{KVPY fellowship 2011} and \textbf{NTSE scholarship 2009} by the Govt. of India.
+\item Cleared the \textbf{Mathematics}, \textbf{Informatics}, \textbf{Physics}, and \textbf{Astronomy} Olympiads organised by the Govt. of India.
+\end{tightitemize}
+}
+\vspace{-3pt}
+\section{Teaching and Leadership}
+
+\vspace{5pt}
+\begin{tightitemize}
+\item \textbf{Tutor | ESC101, IIT Kanpur (Fall 16, Spring 17):} Delivered weekly tutorials, supervised the TAs, set exams and lab sessions. \vspace{0.5mm}
+\item \textbf{Coordinator | Programming Club, IITK:} Organised various programming contests, Hackathons, summer projects, programming workshops and events for the campus community while managing a team of over 15 secretaries.
+\vspace{0.5mm}
+\end{tightitemize}
+
+
+
+
+\end{document}
