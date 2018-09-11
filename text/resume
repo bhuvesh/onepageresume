@@ -1,0 +1,16 @@
+Research Intern
+Johns Hopkins University
+
+-Worked on stochastic methods for Kernel PCA by extending Stochastic PCA methods using non linear feature maps.
+-Used Randomized Fourier features and deterministic features using Taylor series to approximate the kernel evaluation.
+Test
+Software Development Intern
+Nike, Dubai
+- Developed a website for a Nike event, NTC Tour Dubai integrating social tagging in 360 panoramas.
+- Facebook Graph API, email addresses, and the Twitter APIs were used to fetch data, perform tagging, and sharing.
+- Developed and deployed a ticketing system using Amazon AWS for the same event which was attended by over a 1000 guests.
+- Android application and Database servers were set up to check in guests for the event based on the unique QR codes.
+
+C++,C,Python,Matlab,Octave,Awk,C#,Bash, MySQL
+
+Tensorflow,scikit-learn,Caffe,OpenCV,OpenGL,pandas
