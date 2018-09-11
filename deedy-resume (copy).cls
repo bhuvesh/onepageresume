@@ -24,10 +24,10 @@
 
 \usepackage[usenames,dvipsnames]{xcolor} % Required for custom colors
 
-\definecolor{primary}{rgb}{0,0,0} % The primary document color for content text
-\definecolor{headings}{rgb}{0,0,0} % The color of the large sections
-\definecolor{subheadings}{rgb}{0,0,0} % The color of subsections and places worked/studied
-\definecolor{date}{rgb}{0,0,0} % The color used for the Last Updated text at the top right
+\definecolor{primary}{HTML}{2b2b2b} % The primary document color for content text
+\definecolor{headings}{HTML}{6A6A6A} % The color of the large sections
+\definecolor{subheadings}{HTML}{333333} % The color of subsections and places worked/studied
+\definecolor{date}{HTML}{666666} % The color used for the Last Updated text at the top right
 
 %----------------------------------------------------------------------------------------
 %	FONTS
@@ -88,10 +88,10 @@ Last Updated on \today % Last Updated text
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{10pt}{10pt}\selectfont\bfseries}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{ % Used for creating subsections where a description is required on the same line
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{9pt}{9pt}\selectfont\bfseries{#1}  \normalfont}
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{9pt}{9pt}\selectfont\bfseries\uppercase{#1}  \normalfont}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{9.5pt}{11pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{9.5pt}{11pt}\selectfont\lowercase {#1 \\} \normalfont}
 
 \newcommand{\location}[1]{ % Used for specifying a duration and/or location under a subsection
 \color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{9pt}{10pt}\selectfont {#1} \normalfont}
