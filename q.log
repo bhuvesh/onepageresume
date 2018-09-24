@@ -1,13 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xetex 2017.9.5)  11 SEP 2018 12:24
-entering extended mode
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=luatex 2017.9.5)  24 SEP 2018 16:01
  restricted \write18 enabled.
- %&-line parsing enabled.
 **Bhuvesh_Resume.
 (/usr/share/texlive/texmf-dist/tex/latex/tools/q.tex File ignored
 )
 ! Emergency stop.
 <*> Bhuvesh_Resume.
-                   
+                
 *** (job aborted, no legal \end found)
 
-No pages of output.
+!  ==> Fatal error occurred, no output PDF file produced!
